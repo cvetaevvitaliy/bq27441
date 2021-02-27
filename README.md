@@ -12,8 +12,8 @@ Copy sources, add header file to your project
 
 The library does not depend on the i2c implementation, you need to implement this yourself and register read/write callbacks before initializing bq27441 chip
 
-For example, for STM32 and HAL device library
-
+You can use any microcontrollers or even Linux user-space to read data from this sensor, it's all up to you <br>
+For example, use STM32 and HAL device library <br>
 
 i2c read/write
 ```c
