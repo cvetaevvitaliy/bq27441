@@ -309,7 +309,7 @@ uint16_t BQ27441_capacity(capacity_measure type) {
             break;
         case DESIGN:
             capacity = BQ27441_readWord(BQ27441_EXTENDED_CAPACITY);
-
+            break;
         default:
             return BQ27441_readWord(BQ27441_COMMAND_REM_CAPACITY);
     }
